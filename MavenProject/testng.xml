@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default suite">
-  <test verbose="2" name="Default test">
-    <classes>
-      <class name="com.maven.POMworking.POM">
-        <methods>
-          <include name="avbnm"/>
-        </methods>
-      </class> <!-- com.maven.POMworking.POM -->
-    </classes>
-  </test> <!-- Default test -->
+<suite name="com.maven.POMworking">
+ 
+    <test name="xmlCheck1">
+        <classes>
+            <class name="com.maven.POMworking.SecondClass"></class>
+            <!--  class name="com.maven.POMworking.POM"></class>-->
+        </classes>
+    </test>
 </suite> <!-- Default suite -->
