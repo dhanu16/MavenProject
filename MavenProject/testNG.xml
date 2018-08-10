@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Default suite">
+
+  <test name="Default test">
+	<classes>
+		<!-- class name="com.maven.POMworking.POM" /-->
+		<class name="com.maven.POMworking.SecondClass">
+			<methods>
+				<include name="xmlCheck1" />
+				<!--include name="xmlCheck2" /-->
+				<!-- 
+					<exclude name="testMakeOrder" />
+				 -->
+			</methods>
+		</class>		
+	</classes>
+  </test>
+ 
+</suite>

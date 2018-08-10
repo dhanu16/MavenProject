@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85" started-at="2018-08-10T07:49:05Z" finished-at="2018-08-10T07:49:05Z">
+  <suite name="Default suite" duration-ms="33" started-at="2018-08-10T09:32:45Z" finished-at="2018-08-10T09:32:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85" started-at="2018-08-10T07:49:05Z" finished-at="2018-08-10T07:49:05Z">
-      <class name="com.maven.POMworking.POM">
-        <test-method status="PASS" signature="Test1()[pri:0, instance:com.maven.POMworking.POM@4cc0edeb]" name="Test1" duration-ms="28" started-at="2018-08-10T13:19:05Z" finished-at="2018-08-10T13:19:05Z">
+    <test name="Default test" duration-ms="33" started-at="2018-08-10T09:32:45Z" finished-at="2018-08-10T09:32:45Z">
+      <class name="com.maven.POMworking.SecondClass">
+        <test-method status="PASS" signature="xmlCheck1()[pri:0, instance:com.maven.POMworking.SecondClass@39aeed2f]" name="xmlCheck1" duration-ms="10" started-at="2018-08-10T15:02:45Z" finished-at="2018-08-10T15:02:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:com.maven.POMworking.POM@4cc0edeb]" name="Test2" duration-ms="14" started-at="2018-08-10T13:19:05Z" finished-at="2018-08-10T13:19:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:com.maven.POMworking.POM@4cc0edeb]" name="Test3" duration-ms="3" started-at="2018-08-10T13:19:05Z" finished-at="2018-08-10T13:19:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test3 -->
-      </class> <!-- com.maven.POMworking.POM -->
+        </test-method> <!-- xmlCheck1 -->
+      </class> <!-- com.maven.POMworking.SecondClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
